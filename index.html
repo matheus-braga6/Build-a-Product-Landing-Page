@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="guitarclub.css">
+    <title>GuitarShop</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbgcss">
+        <a href="#" class="navbar-brand">
+                <img src="https://live.staticflickr.com/65535/53076114608_eedd3e28d5_o.png" alt="Logo GuitarShop" class="img-fluid" style="width: 300px; height: 80px;" >   
+        </a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#btn">
+            <i class="bi bi-list"></i>
+        </button>
+
+        <div class="collapse navbar-collapse" id="btn">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a href="#features" class="nav-link fontcss">Features</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#comparison" class="nav-link fontcss">Comparison</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#shopnow" class="nav-link fontcss">Shop Now</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <h1 id="form-h1" class="title">The best guitars in the world!</h1>
+
+    <form>
+        <div class="form-group">
+          <input type="email" class="form-control"  id="email" placeholder="Enter your email address">
+        </div>
+        <button type="submit" id="submit" class="d-block m-auto btn btn-primary">Check Our Daily News</button>
+    </form>
+
+    <div class="features" id="features">
+        <i class="icon bi bi-stars"></i>
+        <div class="featurescolumn">
+            <h2>Premium Brands</h2>
+            <p>Here you will find guitars from the best and most renowned brands in the world!</p>
+        </div>
+    </div>
+
+    <div class="features">
+        <i class="icon bi bi-rocket-fill"></i>
+        <div class="featurescolumn">
+            <h2>Fast Shipping</h2>
+            <p>We make sure you recieve your guitar as soon as possible. We also provide free returns if you are not satisfied.</p>
+        </div>
+    </div>
+
+    <div class="features">
+        <i class="icon bi bi-shield-fill-check"></i>
+        <div class="featurescolumn">
+            <h2>Quality Assurance</h2>
+            <p>For every purchase you make, we'll make sure there's no damage or failure and check your instrument's tuning.</p>
+        </div>
+    </div>
+
+    <div id="comparison">
+        <br>
+        <div class="video">
+            <iframe 
+                id="video"  
+                src="https://www.youtube.com/embed/1DmxdmL0ES8" 
+                frameborder="0" 
+                allowfullscreen
+            ></iframe>
+        </div>
+        <br>
+    </div>
+    
+    <div class="row mb-5">
+        <div class="col-12 col-lg-4 mb-3" id="shopnow">
+                <div class="card text-center cardone rounded-0" id="card">
+                    <div class="card-header blue rounded-0">
+                    Gibson Guitars
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Start at $1,599.00</h5>
+                    <p class="card-text">Burstbucker™ Pickups<br><br>Maple Body<br><br>Vintage Deluxe Tuners</p>
+                    <a href="#" class="btn btn-primary" id="shopnowbutton">Shop Now</a>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12 col-lg-4 mb-3">
+                <div class="card text-center cardtwo rounded-0" id="card">
+                    <div class="card-header blue rounded-0">
+                    Fender Guitars
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Start at $1,199.00</h5>
+                    <p class="card-text">Single-Coil Pickups<br><br>Alder or Ash body<br><br>Gloss Nitrocellulose Finish</p>
+                    <a href="#" class="btn btn-primary" id="shopnowbutton">Shop Now</a>
+                    </div>
+                </div>
+        </div>
+        <div class="col-12 col-lg-4">
+                <div class="card text-center cardthree rounded-0" id="card">
+                    <div class="card-header blue rounded-0">
+                    Gretsch Guitars
+                    </div>
+                    <div class="card-body">
+                    <h5 class="card-title">Start at $1,599.00</h5>
+                    <p class="card-text">String-Thru Bigsby Tailpiece<br><br>Maple Back and Sides<br><br>Gotoh Locking Tuners</p>
+                    <a href="#" class="btn btn-primary" id="shopnowbutton">Shop Now</a>
+                    </div>
+                </div>
+        </div>
+    </div>    
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+<footer>
+    <ul>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <span>Copyright 2023, GuitarClub</span>
+  </footer>
+</html>
